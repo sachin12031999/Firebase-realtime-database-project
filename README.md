@@ -1,4 +1,4 @@
-# Realtime Database Starter
+# Firebase realtime database project
 
 This project is a starter for creating a web app using React with Firebase's Realtime Database. This project is built with React, Bootstrap, Reactstrap, React Router Dom and Firebase.
 
