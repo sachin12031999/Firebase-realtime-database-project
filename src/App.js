@@ -27,7 +27,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
-// components
+// elements
 import AddContact from "./pages/AddContact";
 import Contacts from "./pages/Contacts";
 import Header from "./layout/Header";
@@ -78,7 +78,7 @@ const App = () => {
     });
   };
 
-  // getting contact  when component did mount
+  // getting contact  when element did mount
   useEffect(() => {
     getContacts();
   }, []);
@@ -90,10 +90,10 @@ const App = () => {
         <Header />
         <Container>
           <Routes>
-            <Route exact path="/contact/add" component={AddContact} />
-            <Route exact path="/contact/view" component={ViewContact} />
-            <Route exact path="/" component={Contacts} />
-            <Route exact path="*" component={PageNotFound} />
+            <Route exact path="/contact/add" element={<AddContact/>} />
+            <Route exact path="/contact/view" element={<ViewContact />} />
+            <Route exact path="/" element={<Contacts/>} />
+            <Route exact path="*" element={<PageNotFound/>} />
           </Routes>
         </Container>
 

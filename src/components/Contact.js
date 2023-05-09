@@ -8,10 +8,6 @@ import { FaRegStar, FaStar } from "react-icons/fa";
 import { MdDelete, MdEdit } from "react-icons/md";
 
 //TODO: DONE add firebase
-// import firebase from "firebase/app";
-//firebase
-// import firebase from "firebase/app";
-// import "firebase/auth";
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
