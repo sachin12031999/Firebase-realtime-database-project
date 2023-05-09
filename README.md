@@ -58,5 +58,5 @@ Follow these steps to install and run this project on your local machine:
 
 ## visit
 
-* avilable soon....
+* available soon....
 
